@@ -1,0 +1,34 @@
+body{
+	background-color: rgb(12,75,107);
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin:0;
+}
+h1{
+	text-align: center;
+}
+
+#disclaimer{
+	text-align: center;
+}
+
+#navBarDiv{
+	background-color:  rgb(189,101,1); 
+	width: 100%;
+}
+#navBarList{
+	list-style-type: none;
+	color: black;
+	text-shadow: none;
+	text-align: center;
+
+}
+ul#navBarList li{
+	display: inline;
+	padding: 30px;
+}
+ul#navBarList input{
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+}
