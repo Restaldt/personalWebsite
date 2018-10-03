@@ -2,12 +2,35 @@ function homeFunction(){
 
 	//alert("Home Button Clicked");
 
-	document.getElementById("mainBlock").innerHTML = "<h3>	About Me: </h3>"
+	document.getElementById("homeBlock").style.display = "block";
+	document.getElementById("ipfsBlock").style.display = "none";
+	document.getElementById("projectsBlock").style.display = "none";
+	document.getElementById("transcriptBlock").style.display = "none";
 
 }
 
 function ipfsFunction(){
 	//alert("IPFS button clicked");
-	document.getElementById("mainBlock").innerHTML = "";
+	document.getElementById("homeBlock").style.display = "none";
+	document.getElementById("ipfsBlock").style.display = "block";
+	document.getElementById("projectsBlock").style.display = "none";
+	document.getElementById("transcriptBlock").style.display = "none";
+
+}
+
+function projectsFunction(){
+
+	document.getElementById("homeBlock").style.display = "none";
+	document.getElementById("ipfsBlock").style.display = "none";
+	document.getElementById("projectsBlock").style.display = "block";
+	document.getElementById("transcriptBlock").style.display = "none";
+}
+
+function transcriptFunction(){
+
+	document.getElementById("homeBlock").style.display = "none";
+	document.getElementById("ipfsBlock").style.display = "none";
+	document.getElementById("projectsBlock").style.display = "none";
+	document.getElementById("transcriptBlock").style.display = "block";
 
 }
