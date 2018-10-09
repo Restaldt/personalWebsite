@@ -23,12 +23,23 @@ h1{
 	text-align: center;
 
 }
+
+#myPic{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+
+}
+
 ul#navBarList li{
 	display: inline;
 	padding: 30px;
+
 }
 ul#navBarList input{
 	border: none;
 	background-color: inherit;
 	cursor: pointer;
+	font-size: 133%;
 }
