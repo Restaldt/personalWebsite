@@ -1,11 +1,19 @@
+html{
+ height: 100%;
+ width: 100%;
+}
+
 body{
 	background-color: rgb(12,75,107);
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	margin:0;
+	width: 100%;
+ 	height: 100%;
 }
 h1{
 	text-align: center;
+	
 }
 
 #disclaimer{
@@ -33,6 +41,9 @@ h1{
 }
 #homeText{
 	font-size: 125%;
+	white-space: pre-line;
+
+	margin-left: 2%
 }
 #languages{
 	display: inline-block;
@@ -40,7 +51,7 @@ h1{
 }
 ul#navBarList li{
 	display: inline;
-	padding: 30px;
+	padding: 5%;
 
 }
 ul#navBarList input{
