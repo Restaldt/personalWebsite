@@ -39,7 +39,7 @@ h1{
     width: 12%;
 
 }
-#homeText{
+pre.homeText{
 	font-size: 125%;
 	white-space: pre-line;
 
@@ -48,6 +48,9 @@ h1{
 #languages{
 	display: inline-block;
 
+}
+#technologies{
+	display: inline-block;
 }
 ul#navBarList li{
 	display: inline;
