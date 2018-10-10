@@ -31,7 +31,13 @@ h1{
     width: 12%;
 
 }
+#homeText{
+	font-size: 125%;
+}
+#languages{
+	display: inline-block;
 
+}
 ul#navBarList li{
 	display: inline;
 	padding: 30px;
