@@ -39,6 +39,10 @@ h1{
     width: 12%;
 
 }
+h3.infoText{
+
+	padding-left: 1%;
+}
 pre.homeText{
 	font-size: 125%;
 	white-space: pre-line;
