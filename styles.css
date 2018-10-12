@@ -43,7 +43,7 @@ h3.infoText{
 
 	padding-left: 1%;
 }
-pre.homeText{
+pre.preText{
 	font-size: 125%;
 	white-space: pre-line;
 
@@ -66,4 +66,8 @@ ul#navBarList input{
 	background-color: inherit;
 	cursor: pointer;
 	font-size: 133%;
+}
+
+footer{
+	position: absolute;
 }
