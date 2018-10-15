@@ -49,12 +49,22 @@ pre.preText{
 
 	margin-left: 2%
 }
-img.pets{
-	padding-left: 9%;
-	padding-right: 6%;
-	height: 33%;
-	width: 33%;
+#figures{
+	margin-left: auto;
+  	margin-right:auto;
+    text-align: center;
+    width: 100%;
+}
+figure.pets{
+
+	height: 25%;
+	width: 25%;
+
 	display: inline-block;
+}
+
+.pets img{
+	width: 100%;	
 }
 #languages{
 	display: inline-block;
