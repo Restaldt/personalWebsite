@@ -49,6 +49,13 @@ pre.preText{
 
 	margin-left: 2%
 }
+img.pets{
+	padding-left: 9%;
+	padding-right: 6%;
+	height: 33%;
+	width: 33%;
+	display: inline-block;
+}
 #languages{
 	display: inline-block;
 
@@ -65,6 +72,7 @@ ul#navBarList input{
 	border: none;
 	background-color: inherit;
 	cursor: pointer;
+
 	font-size: 133%;
 }
 
