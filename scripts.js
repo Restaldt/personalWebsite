@@ -25,12 +25,3 @@ function projectsFunction(){
 	document.getElementById("projectsBlock").style.display = "block";
 	document.getElementById("transcriptBlock").style.display = "none";
 }
-
-function transcriptFunction(){
-
-	document.getElementById("homeBlock").style.display = "none";
-	document.getElementById("ipfsBlock").style.display = "none";
-	document.getElementById("projectsBlock").style.display = "none";
-	document.getElementById("transcriptBlock").style.display = "block";
-
-}

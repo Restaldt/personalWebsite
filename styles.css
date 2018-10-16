@@ -49,6 +49,10 @@ pre.preText{
 
 	margin-left: 2%
 }
+pre.preText a{
+	text-shadow: none;
+	color: rgb(189,101,1);
+}
 #figures{
 	margin-left: auto;
   	margin-right:auto;
@@ -85,7 +89,16 @@ ul#navBarList input{
 
 	font-size: 133%;
 }
-
 footer{
-	position: absolute;
+	background-color:  rgb(189,101,1);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+	text-shadow: none;
+	color: black;
+	text-align: right;
+
+	
 }
+
