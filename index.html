@@ -144,7 +144,30 @@
 			<h3 class = "infoText">
 				About IPFS:
 			</h3>
+				<pre class = "preText">
+					IPFS - the InterPlanetary File System is a recently developed hypermedia distribution protocol developed by Protocol Labs.
 
+					It is a Content Addressed, Versioned, P2P File System. Files on IPFS are not IP addressed like files on HTTP networks are. Instead the address of a file is the hash of its contents. IPFS is similar to a a single bittorrent swarm exchanging git objects. 
+
+					Since the address of a file on IPFS is the hash of its contents any time you change any part of the file that new file has a completely separate address from the previous version. This content addressing has several inherent benefits over HTTP. 
+
+					Files stored on HTTP networks only exist on a given server with a specified IP address. So if all of the servers that file exists on go down for some reason then that file is no longer accessible. HTTP also does not take into account the physical distance between the server and the client. IPFS attempts to address this by being a distributed file system in which the address of the file is the hash of its contents. Any computer on IPFS can store all of the files they are interested in and anyone who wants to access a specific hash can access those files through IPFS. So long as a node on IPFS has a specified file then that file can be accessed. 
+
+					This can also lead to certain files having psuedo-permenance on the network. The more popular a file is on IPFS the more times it will be downloaded and stored and the more locations it can be pulled from.
+
+					Version control systems are as simple as saving the hash of the previous version and accessing that hash when you want to access a previous version. 
+
+					IPFS also has a mutable link system called IPNS (InterPlanetary Name System) which can be used as a mutable directory of immutable objects. Due to the content addressing of files on IPFS it can be difficult to find the latest version of a file because every new version has its own address. This is where IPNS comes in to play. It basically functions as a pointer that can be changed at any time to point to a specified IPFS hash.
+
+					IPFS is also accessible through a HTTP gateway at ipfs.io/ipfs/[hash]. This means files uploaded to the file system can be accessed in pretty much any browser. IPNS also works in http at ipfs.io./ipns/[hash].
+
+					Currently IPFS is still a work in progress. It still has a few bugs; IPNS for example is extremely slow. I am very interested in the technology and would encourage you to go learn more at the following links:
+
+					<a href = "https://github.com/ipfs/ipfs">IPFS on Github</a>
+					<a href = "ipfs.io">ipfs.io</a>
+
+
+				</pre>
 		</div>
 
 
