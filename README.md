@@ -3,3 +3,7 @@ I will be hosting this basic HTML/CSS/JavaScript website on IPFS. It will serve 
 
 
 https://ipfs.io/ipns/QmZFoS2p5a6xufJ5CEpnhWTqEbMZzELas6MV71Bw7kTThz
+
+
+latest ipfs address:
+https://ipfs.io/ipfs/QmYSHveXAtHQNpigmkGNtABZ3xkXcB8HhM1mLPLQZrWqhH/
