@@ -6,4 +6,4 @@ https://ipfs.io/ipns/QmZFoS2p5a6xufJ5CEpnhWTqEbMZzELas6MV71Bw7kTThz
 
 
 latest ipfs address:
-https://ipfs.io/ipfs/QmWjv2uLFbKn8Kv87AXYkJynbbknj5b3ZE6qdBPpbPK2Xh
+https://ipfs.io/ipfs/QmRjFtrwNPmFNjhMKyBVVZTiNEnbqkYQAqJqQaDXuQFzdq
